@@ -1,0 +1,67 @@
+.name{
+    background-color:  #101010;
+    color: aliceblue;
+    line-height: 2;
+    padding: 20px;
+
+}
+.name h3{
+    color: rgb(135, 255, 135);
+}
+
+.email{
+    background-color: #6e6e6e;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.9;
+
+}
+.all{
+    display: flex;
+}
+.allright{
+    width: 50%;
+    padding: 20px;
+   
+}
+.work{
+    margin-top: 10px;
+}
+.projects{
+    margin-top: 20px;
+}
+.education{
+    margin-top: 20px;
+}
+
+
+.allleft{
+    width: 50%;
+    padding: 20px;
+
+}
+.skils{
+    margin-top: 10px;
+}
+.achiv{
+    margin-top: 20px;
+}
+.lang{
+    margin-top: 20px;
+}.int{
+    margin-top: 20px;
+}
+button{
+    padding: 10px;
+    background-color:#101010;
+    color: white;
+    margin: 2px;
+    border-radius: 3px;
+}
+.work h3, .skils h3 ,.achiv h3 , .lang h3 , .int h3 , .projects h3 , .education h3  {
+
+    color: rgb(135, 255, 135);
+
+}
