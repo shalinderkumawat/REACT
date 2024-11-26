@@ -4,6 +4,7 @@ import './Name.css'
 function Name() {
   return (
     <div className='name'>
+    {/* <p>{propes.abc.n}</p> */}
         <h1>Shailendra Kumawat</h1>
         <h3>Java Developer</h3>
         <p>
