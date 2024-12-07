@@ -7,6 +7,7 @@ import Home from './Home'
 import About from './About'
 import Navbar from './Navbar'
 import Sk from './Sk'
+import Cacluter from './Cacluter'
 
 function App() {
   
@@ -19,16 +20,18 @@ function App() {
     
     <h1>This is BrowserRouter</h1>
 
-        <BrowserRouter>
+        {/* <BrowserRouter>
           <Routes>
             <Route path="/" element={<Navbar/>}/>
-            {/* brand it's use for make a object   */}
+            brand it's use for make a object  
             <Route path="/home" element={<Home brand= { carInfo }  />}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/sk" element={<Sk/>}/>
 
           </Routes>
-        </BrowserRouter>
+        </BrowserRouter> */}
+          <Cacluter/>
+
           
           
           
